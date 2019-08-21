@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lesson2</string>
+    <string name="btn_1">7</string>
+    <string name="btn_2">4</string>
+    <string name="btn_3">1</string>
+    <string name="btn_4">.</string>
+    <string name="btn_5">8</string>
+    <string name="btn_6">5</string>
+    <string name="btn_7">2</string>
+    <string name="btn_8">0</string>
+    <string name="btn_9">9</string>
+    <string name="btn_10">6</string>
+    <string name="btn_11">3</string>
+    <string name="btn_12">=</string>
+    <string name="btn_13">DEL</string>
+    <string name="btn_14">/</string>
+    <string name="btn_15">*</string>
+    <string name="btn_16">-</string>
+    <string name="btn_17">+</string>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:background="#FD045B">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_25sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Books"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/_20ssp"
+            android:layout_marginVertical="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_30sdp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search"
+            android:layout_marginVertical="@dimen/_17sdp"
+            android:layout_marginLeft="@dimen/_100sdp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#14617222"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="@dimen/_225sdp"
+            android:layout_margin="@dimen/_10sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome Back!"
+                android:textColor="#F70202"
+                android:textSize="@dimen/_20ssp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_20sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It's been a while, have you"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
